@@ -1,0 +1,9 @@
+.txt-btn {
+    color: white;
+    transition: color 0.2s;
+    cursor: pointer;
+}
+
+.txt-btn:hover {
+    color: #96e2f8;
+}
