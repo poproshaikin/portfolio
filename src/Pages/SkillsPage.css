@@ -1,1 +1,46 @@
+#skl-body {
+    height: 100vh;
 
+    padding: 0 10vw;
+
+    background: black;
+}
+
+#skl-header-cnt {
+    height: 25%;
+
+    color: white;
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+    h1 {
+        font-size: 3.5rem;
+    }
+    p {
+        font-style: italic;
+    }
+/* 
+    background: white; */
+}
+
+#skl-main-cnt {
+    height: 75%;
+
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+
+    grid-gap: 1vw;
+
+    padding-bottom: 15vh;
+}
+
+.skl-col-img-cnt {
+    height: 30%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
