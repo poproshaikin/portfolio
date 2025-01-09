@@ -1,0 +1,15 @@
+.btn-cnt {
+    border: 1px solid white;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    cursor: pointer;
+
+    transition: border 0.2s, color 0.2s;
+}
+
+.btn-cnt:hover {
+    border: 1px solid #96e2f8;
+}
