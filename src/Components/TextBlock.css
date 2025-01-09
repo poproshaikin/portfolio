@@ -1,0 +1,11 @@
+.text-block-cnt {
+    background: #282E38;
+    border: 1px solid #282E38;
+    color: white;
+    
+    padding: 1rem;
+
+    line-height: 1.5;
+    text-align: center;
+    font-size: 1.05rem;
+}
