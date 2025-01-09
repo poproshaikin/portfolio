@@ -11,7 +11,7 @@ export default function AboutMePage() {
                     <div id="abm-left-top-cnt">
                         <TextButton content='About Me' href='#abm-main'/>
                         <TextButton content='Skills' href='#skl-body'/>
-                        <TextButton content='Contacts' />
+                        <TextButton content='Contacts' href='#cts-body'/>
                     </div>
                     <div id="abm-left-bottom-cnt">
                         <div id='abm-main-text-cnt'>

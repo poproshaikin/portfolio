@@ -44,7 +44,7 @@
 #abm-left-top-cnt {
     padding-top: 5vh;
 
-    height: 10%;
+    height: 14%;
 
     display: flex;
     flex-direction: column;
@@ -53,9 +53,9 @@
 }
 
 #abm-left-bottom-cnt {
-    height: 90%;
+    height: 86%;
 
-    padding-top: 10vh;
+    padding-top: 7vh;
 
     display: flex;
     flex-direction: column;
