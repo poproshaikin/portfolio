@@ -2,10 +2,24 @@
     background: #282E38;
     border: 1px solid #282E38;
     color: white;
-    
+
     padding: 1rem;
 
     line-height: 1.5;
     text-align: center;
-    font-size: 1.05rem;
+    font-size: 1rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    transition: transform 0.2s;
+
+    p {
+        cursor: default;
+    }
+}
+
+.text-block-cnt:hover {
+    transform: translateY(-1vh);
 }
