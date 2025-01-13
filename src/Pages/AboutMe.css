@@ -1,10 +1,14 @@
 #abm-body {
     background: black;
 
-    width: 100vw;
+    width: 90vw;
     height: 100vh;
 
     z-index: 1;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
 #abm-sign {
@@ -18,14 +22,12 @@
     z-index: 1;
     position: relative;
 
-    padding-left: 10vw;
-
     display: flex;
     flex-direction: row;
 }
 
 #abm-left-part {
-    width: 40%;
+    /* width: 50vw; */
     height: inherit;
 
     color: white;
@@ -35,7 +37,7 @@
 }
 
 #abm-right-part {
-    width: 60%;
+    width: max-content;
     height: inherit;
 
     color: white;
@@ -88,6 +90,6 @@
 }
 
 #abm-me-img {
-    height: 44rem;
+    height: 41rem;
     position: relative;
 }
