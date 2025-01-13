@@ -1,0 +1,55 @@
+#cts-body {
+    height: 100vh;
+    background: black;
+}
+
+#cts-header-cnt {
+    height: 25%;
+
+    color: white;
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+    h1 {
+        font-size: 3.5rem;
+    }
+    p {
+        font-style: italic;
+    }
+}
+
+#cts-main-cnt {
+    height: 75%;
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+    grid-gap: 1vw;
+}
+
+.cts-col-content-cnt {
+    height: 100%;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    
+    padding: 5vh 0;
+
+    h1 {
+        font-size: 3rem;
+        color: #96e2f8;
+    }    
+    p {
+        text-align: left;
+        font-size: 1.1rem;
+        width: 81%;
+    }
+
+    img {
+        height: 15vh;
+    }
+}
