@@ -1,9 +1,9 @@
-#cts-body {
+#pjs-body {
     height: 100vh;
     background: black;
 }
 
-#cts-header-cnt {
+#pjs-header-cnt {
     height: 25%;
 
     color: white;
@@ -20,7 +20,7 @@
     }
 }
 
-#cts-main-cnt {
+#pjs-main-cnt {
     height: 75%;
 
     display: grid;
@@ -29,7 +29,7 @@
     grid-gap: 1vw;
 }
 
-.cts-col-content-cnt {
+.pjs-col-content-cnt {
     height: 100%;
 
     display: flex;

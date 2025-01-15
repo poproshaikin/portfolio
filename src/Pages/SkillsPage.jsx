@@ -5,14 +5,14 @@ import Button from "../Components/Button"
 export default function SkillsPage() {
     return (
         <div id='skl-body'>
-            <div id='skl-header-cnt'>
+            <div id='skl-header-cnt' data-aos='fade-up'>
                 <h1>WHAT I EXCEL AT</h1>
                 <p>Turning complex ideas into elegant solutions.</p>
             </div>
-            <div id='skl-main-cnt'>
+            <div id='skl-main-cnt' data-aos='fade-up'>
                 <TextBlock height='70vh'>
                     <div className="skl-col-content-cnt">
-                        <img src="/assets/dotnet.png" alt="dotnet" />
+                        <h1>.NET</h1>
                         <p>A comprehensive, cross-platform framework that empowers developers to build scalable and high-performance applications. Whether you're creating robust enterprise solutions or modern cloud applications, .NET provides the flexibility and tools needed to turn your ideas into reliable, efficient software.</p>   
                         <Button width='90%' href='https://dotnet.microsoft.com/en-us/'>
                             Explore .NET
@@ -21,7 +21,8 @@ export default function SkillsPage() {
                 </TextBlock>
                 <TextBlock height='70vh'>
                     <div className='skl-col-content-cnt'>
-                        <img src="/assets/aspnet.png" alt="aspnet" />
+                        <h1>ASP.NET</h1>
+                        {/* <img src="/assets/aspnet.png" alt="aspnet" /> */}
                         <p>The framework for building dynamic, high-performance web applications. ASP.NET enables the creation of everything from fast APIs to fully interactive websites, all while supporting cross-platform deployment. With its efficient architecture and flexibility, it ensures that web development remains both powerful and streamlined.</p>
                         <Button width='90%' href='https://dotnet.microsoft.com/en-us/learn/aspnet/what-is-aspnet'>
                             Explore ASP.NET
