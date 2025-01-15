@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 main {
     display: flex;
     flex-direction: column;
@@ -5,4 +9,25 @@ main {
 
 body::-webkit-scrollbar {
     display: none;
+}
+
+#home-cnt {
+    background-color: black;
+    padding: 0 10vw;
+    box-sizing: border-box;
+}
+
+.separating-line {
+    height: 1px;
+}
+
+.hidden {
+    opacity: 0;
+    transform: translateX(-10000px);
+    transition: opacity 3s ease-out, transform 3s ease-out;
+}
+
+.visible {
+    opacity: 1;
+    transform: translateX(0);
 }
