@@ -9,10 +9,15 @@
 }
 .tcc-value {
     font-size: 1.2rem;
+    width: max-content;
     cursor: pointer;
-    display: inline-block;
+    transition: color 0.2s ;
+    /* display: inline-block; */
 }
-.tcc-value::after {
+.tcc-value:hover {
+    color: #96e2f8;
+}
+/* .tcc-value::after {
     content: '';
     width: 0px;
     height: 1px;
@@ -22,4 +27,4 @@
 }
 .tcc-value::after:hover {
     width: 100%;
-}
+} */

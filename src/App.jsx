@@ -3,6 +3,7 @@ import AboutMePage from "./Pages/AboutMePage";
 import SkillsPage from "./Pages/SkillsPage";
 import ProjectsPage from "./Pages/ProjectsPage";
 import ContactsPage from "./Pages/ContactsPage";
+import Footer from "./Pages/Footer"
 import {BrowserRouter, Route, Router, Routes} from "react-router-dom";
 import AOS from 'aos'
 import 'aos/dist/aos.css'
@@ -25,8 +26,10 @@ export default function App() {
                             <ProjectsPage/>
                             <hr className='separating-line' data-aos='fade-up' />
                             <SkillsPage/>
-                            <hr className="separating-line" data-aos='fade-up' />
+                            <hr className="separating-line" data-aos='fade-down' />
                             <ContactsPage/>
+                            <hr className="separating-line" />
+                            <Footer />
                         </div>
                     }
                     />

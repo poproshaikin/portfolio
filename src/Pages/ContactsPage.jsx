@@ -26,7 +26,7 @@ export default function ContactsPage() {
                     <input className='cts-input' placeholder='E-mail' type="text" />
                     <input className='cts-input' placeholder='Subject' type="text" />
                     <textarea className='cts-input' id='cts-input-message' placeholder='Your message' type="text" />
-                    <Button height='8vh' width='15vw'>
+                    <Button height='7vh' width='14vw'>
                         <p style={{fontSize: '1.2rem'}}>Send</p>
                     </Button>
                 </div>
