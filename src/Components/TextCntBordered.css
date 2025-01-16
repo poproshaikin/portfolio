@@ -1,0 +1,25 @@
+.tcc-cnt {
+    border: 1px solid white;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+}
+.tcc-key {
+    font-size: 1.1rem;
+}
+.tcc-value {
+    font-size: 1.2rem;
+    cursor: pointer;
+    display: inline-block;
+}
+.tcc-value::after {
+    content: '';
+    width: 0px;
+    height: 1px;
+    display: block;
+    background: black;
+    transition: 0.2s ease;
+}
+.tcc-value::after:hover {
+    width: 100%;
+}
