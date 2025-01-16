@@ -15,3 +15,80 @@
         font-size: 3.5rem;
     }
 }
+
+#cts-content-cnt {
+    height: 75%;
+/* 
+    display: grid;
+    grid-template-columns: 1fr 1fr; */
+
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#cts-left-part {
+    /* border-right: 1px solid white; */
+    width: 50%;
+    height: 90%;
+
+    padding-right: 2.5vw;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: start;
+}
+
+#cts-right-part {
+    /* border-left: 1px solid white; */
+
+    width: 50%;
+    height: 90%;
+
+    padding-left: 2.5vw;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: start;
+    
+    h3 {
+        width: 19vw;
+        font-size: 1.2rem;
+    }
+}
+
+.cts-input {
+    
+    font-size: 1.2rem;
+    padding: 0.3rem;
+    border: 1px solid white;
+    background: rgba(0,0,0,1);
+    outline: none;
+    color: white;
+    width: 30vw;
+    transition: border 0.2s;
+    padding-left: 1vw;
+}
+
+.cts-input:hover {
+    border: 1px solid #96e2f8;
+}
+
+.cts-input:focus {
+    border: 1px solid #96e2f8;
+}
+
+#cts-input-message {
+    height: 10rem;
+    resize: none;
+    
+    overflow: scroll;
+    scrollbar-width: none;
+}
+/* #cts-input-message::webkit-scrollbar {
+    display: none;
+} */
