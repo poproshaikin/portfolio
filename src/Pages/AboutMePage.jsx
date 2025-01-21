@@ -20,7 +20,7 @@ export default function AboutMePage() {
                             <p>Are you looking for back-end programmer? </p>
                         </div>
                         <div id='abm-skills-btn'>
-                            <Button height='8vh' width='15vw' href='#skl-body'>
+                            <Button href='#skl-body'>
                                 <p style={{fontSize: "1.7rem"}}>SKILLS</p>
                             </Button>
                         </div>

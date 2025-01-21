@@ -10,7 +10,7 @@ import 'aos/dist/aos.css'
 
 AOS.init({
     duration: 1000,
-    offset: 300
+    offset: 200
 });
 
 export default function App() {

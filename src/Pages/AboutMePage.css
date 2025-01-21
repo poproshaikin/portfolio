@@ -11,11 +11,21 @@
     justify-content: space-between;
 }
 
+@media only screen and (min-width: 576px) {
+
+}
+
 #abm-sign {
     height: 80vh;
     rotate: -5deg;
     margin-top: 5vh;
     position: absolute;
+}
+
+@media only screen and (max-width: 576px) {
+    #abm-sign {
+        height: 50vh;
+    }
 }
 
 #abm-main {
@@ -85,11 +95,36 @@
     }
 }
 
+@media only screen and (max-width: 576px) {
+    #abm-main-text-cnt {
+        h1 {
+            margin-top: 12vh;
+        }
+
+        p {
+            margin-top: 7vh;
+        }
+    }
+}
+
 #abm-skills-btn {
     margin-top: 10vh;
+}
+
+@media only screen and (max-width: 576px) {
+    #abm-skills-btn {
+        margin-top: 7vh;
+        width: 10vw;
+    }
 }
 
 #abm-me-img {
     height: 41rem;
     position: relative;
+}
+
+@media only screen and (max-width: 576px) {
+    #abm-me-img {
+        display: none;
+    }
 }
