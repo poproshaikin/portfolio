@@ -7,6 +7,7 @@ import Footer from "./Pages/Footer"
 import {BrowserRouter, Route, Router, Routes} from "react-router-dom";
 import AOS from 'aos'
 import 'aos/dist/aos.css'
+import TextBlock from "./Components/TextCard";
 
 AOS.init({
     duration: 1000,
@@ -33,6 +34,7 @@ export default function App() {
                         </div>
                     }
                     />
+                    <Route path='/debil' element={<TextBlock/>}/>
                 </Routes>
             </BrowserRouter>
         </main>

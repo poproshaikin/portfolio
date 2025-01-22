@@ -1,0 +1,52 @@
+.text-card-cnt {
+    background: #282E38;
+    border: 1px solid #282E38;
+    color: white;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+    height: 90%;
+    width: 33vw;
+
+    padding: 5vh 3vw;
+
+    line-height: 1.5;
+    text-align: left;
+    cursor: default;
+    
+    transition: transform 0.2s;
+
+    h1 {
+        font-size: 3rem;
+        color: #96e2f8;
+    }    
+
+    p {
+        
+        font-size: 1.1rem;
+    }
+
+    img {
+        height: 10vh;
+    }
+
+}
+
+@media only screen and (max-width: 576px) {
+    .text-card-cnt {
+        height: max-content;
+    }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 768px) {
+    .text-card-cnt {
+        
+    }
+}
+
+.text-block-cnt:hover {
+    transform: translateY(-1vh);
+}

@@ -7,7 +7,7 @@ export default function PageWithCards({title, subtitle, children}) {
                 <h1>{title}</h1>
                 <p>{subtitle}</p>
             </div>
-            <div className='pwc-cards-cnt'>
+            <div className='pwc-cards-cnt' data-aos='fade-up'>
                 {children}
             </div>
         </div>

@@ -92,3 +92,58 @@
 /* #cts-input-message::webkit-scrollbar {
     display: none;
 } */
+
+@media screen and (max-width: 768px) {
+    #cts-body {
+        height: auto;
+        padding: 1rem;
+    }
+
+    #cts-header-cnt {
+        height: auto;
+        text-align: center;
+        h1 {
+            font-size: 2.5rem;
+        }
+        p {
+            font-size: 1rem;
+        }
+    }
+
+    #cts-content-cnt {
+        flex-direction: column; 
+        height: auto;
+        gap: 1rem;
+    }
+
+    #cts-left-part, 
+    #cts-right-part {
+        width: 100%;
+        height: auto;
+        padding: 0;
+        align-items: center;
+        text-align: center;
+    }
+
+    #cts-left-part {
+        margin-bottom: 1.5rem;
+    }
+
+    h3 {
+        width: 100%;
+        font-size: 1rem;
+    }
+
+    .cts-input {
+        width: 90%; 
+    }
+
+    #cts-input-message {
+        height: 15vh;
+    }
+
+    button {
+        width: 90%;
+        height: 6vh;
+    }
+}

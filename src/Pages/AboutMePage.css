@@ -16,16 +16,17 @@
 }
 
 #abm-sign {
-    height: 80vh;
+    height: 40vmax;
     rotate: -5deg;
-    margin-top: 5vh;
+    margin-top: 10vh;
     margin-left: 13vw;
     position: absolute;
 }
 
 @media only screen and (max-width: 576px) {
     #abm-sign {
-        margin-left: -15vw;
+        rotate: 0;
+        margin-left: -30px;
         height: 45vh;
     }
 }
@@ -40,6 +41,7 @@
 
 #abm-left-part {
     /* width: 50vw; */
+    width: 45vw;
     height: inherit;
 
     color: white;
@@ -49,10 +51,14 @@
 }
 
 #abm-right-part {
-    width: max-content;
+    width: 45vw;
     height: inherit;
 
     color: white;
+
+    display: flex;
+    align-items: center;
+    justify-content: end;
 }
 
 #abm-left-top-cnt {
@@ -93,13 +99,13 @@
 
     h1 {
         margin-top: 10vh;
-        font-size: 6rem;
+        font-size: 14vmin;
     }
 
     p {
         margin-top: 10vh;
-        font-size: 2rem;
-        width: 45%;
+        font-size: 4.5vmin;
+        width: 45vmin;
     }
 }
 
@@ -117,21 +123,32 @@
 
 #abm-skills-btn {
     margin-top: 10vh;
-    height: 7vh;
-    width: 15vw;
+    height: 9vmin;
+    width: 30vmin;
 }
 
 @media only screen and (max-width: 576px) {
     #abm-skills-btn {
-        margin-top: 7vh;
-        height: 8vh;
+        margin-top: 7vmin;
+        height: 8vmin;
         width: 50vw;
     }
 }
 
 #abm-me-img {
-    height: 41rem;
-    position: relative;
+    height: 90%;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    #abm-me-img {
+        height: 80%;    
+    }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 768px) {
+    #abm-me-img {
+        height: 70%;    
+    }
 }
 
 @media only screen and (max-width: 576px) {
