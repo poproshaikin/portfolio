@@ -1,6 +1,18 @@
 * {
     padding: 0;
     margin: 0;
-    font-family: 'Raleway';
+    font-family: 'Raleway', 'Open Sans', sans-serif;
     box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'Raleway';
+    src: url('./fonts/Raleway/Raleway-VariableFont_wght.ttf') format('ttf'),
+         url('./fonts/Raleway-Regular.woff2') format('woff2'),
+         url('./fonts/Raleway-Regular.woff') format('woff'),
+         url('./fonts/Raleway-Italic.woff2') format('woff2'),
+         url('./fonts/Raleway-Italic.woff') format('woff'),
+         url('./fonts/Raleway-Bold.woff2') format('woff2'),
+         url('./fonts/Raleway-Bold.woff') format('woff'),
+         url('./fonts/Raleway-Thin.woff2') format('woff2'),
 }

@@ -8,6 +8,21 @@
     cursor: pointer;
 
     transition: border 0.2s, color 0.2s;
+
+    height: 7vh;
+    width: 15vw;
+
+    font-size: 125%;
+}
+
+@media only screen and (max-width: 1024px) {
+    .btn-cnt { 
+        height: 10vh;
+    }
+}
+
+.btn-cnt p {
+    text-align: center;
 }
 
 .btn-cnt:hover {

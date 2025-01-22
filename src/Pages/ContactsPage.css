@@ -29,8 +29,8 @@
     align-items: center;
 }
 
-#cts-left-part {
-    /* border-right: 1px solid white; */
+#cts-left-part,
+#cts-right-part {
     width: 50%;
     height: 90%;
 
@@ -43,20 +43,9 @@
 }
 
 #cts-right-part {
-    /* border-left: 1px solid white; */
-
-    width: 50%;
-    height: 90%;
-
-    padding-left: 2.5vw;
-
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
     align-items: start;
     
     h3 {
-        width: 19vw;
         font-size: 1.2rem;
     }
 }
@@ -90,13 +79,18 @@
     scrollbar-width: none;
 }
 
+#cts-form-txt {
+    width: 15vw
+}
+
 #cts-submit-btn {
     height: 7vh;
     width: 16vw;
 }
-/* #cts-input-message::webkit-scrollbar {
+
+#cts-sep-line {
     display: none;
-} */
+}
 
 @media screen and (max-width: 768px) {
     #cts-body {
@@ -116,7 +110,7 @@
     }
 
     #cts-form-txt {
-        
+        width: 50vw;
     }
 
     #cts-content-cnt {
@@ -129,7 +123,6 @@
     #cts-right-part {
         width: 100%;
         height: auto;
-        padding: 0;
         align-items: center;
         gap: 0.5vh;
         text-align: center;
@@ -138,9 +131,15 @@
     #cts-left-part {
         margin-bottom: 1.5rem;
     }
+    
+    #cts-right-part {
+        height: 60vh;
+    }  
 
     .cts-input {
+        height: 6vh;
         width: 90%; 
+        padding-left: 4vw;
     }
 
     #cts-input-message {
@@ -148,7 +147,12 @@
     }
 
     #cts-submit-btn {
-        width: 90%;
+        width: 80%;
         height: 6vh;
+    }
+
+    #cts-sep-line {
+        display: block;
+        width: 100%;
     }
 }

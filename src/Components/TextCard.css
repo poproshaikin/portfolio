@@ -6,33 +6,37 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    align-items: center;
+    align-items: start;
 
-    height: 90%;
+    height: max-content;
     width: 33vw;
 
-    padding: 5vh 3vw;
+    padding: 3vh 3vw;
 
     line-height: 1.5;
-    text-align: left;
     cursor: default;
     
     transition: transform 0.2s;
 
     h1 {
-        font-size: 3rem;
+        font-size: 3vmax;
         color: #96e2f8;
+        height: max-content;
     }    
 
     p {
-        
-        font-size: 1.2vmax;
+        text-align: left;
+        font-size: 1.3vmax;
     }
 
     img {
-        height: 10vh;
+        height: 15vh;
     }
 
+}
+
+.text-card-cnt > * {
+    padding: 3vh 0;
 }
 
 @media only screen and (max-width: 576px) {
@@ -40,14 +44,25 @@
         min-height: 60vh;
         max-height: max-content;
         width: 80vw;
-    }
-}
 
-@media only screen and (max-width: 1024px) {
-    .text-card-cnt {
+        padding: 3vh 10vw;
+
+        h1 {
+            font-size: 10vmin;
+        }
+
         p {
             width: 90%;
-            font-size: 2vmax
+            font-size: 2.2vh;
+        }
+
+        .btn-cnt {
+            height: 7vh;
+            width: 75%;
+        }
+        
+        img {
+            height: 10vh;
         }
     }
 }
@@ -58,8 +73,24 @@
         max-height: max-content;
         width: 80vw;
 
+        h1 {
+            font-size: 7vmax;
+        }
+
         .btn-cnt {
-            width: 50px;
+            height: 8vh;
+            width: 50%;
+        }
+    }
+}
+
+
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .text-card-cnt {
+        p {
+            width: 70%;
+            font-size: 2.3vmax
         }
     }
 }

@@ -20,6 +20,7 @@ export default function ContactsPage() {
                     <br />
                     <TextCntBordered property='Working Address: ' value='Ke Kamenci 151, 530 03, Pardubice I'/>
                 </div>
+                <hr id='cts-sep-line' data-aos='fade-down'/>
                 <div id='cts-right-part'  data-aos='fade-down'>
                     <h3 id='cts-form-txt'>For business inquiries, please contact me via form below</h3>
                     <input className='cts-input' placeholder='Name' type="text" />

@@ -29,12 +29,11 @@ export default function App() {
                             <SkillsPage/>
                             <hr className="separating-line" data-aos='fade-down' />
                             <ContactsPage/>
-                            <hr className="separating-line" />
+                            <hr className="separating-line" data-aos='fade-down' data-aos-offset='0'/>
                             <Footer />
                         </div>
                     }
                     />
-                    <Route path='/debil' element={<TextBlock/>}/>
                 </Routes>
             </BrowserRouter>
         </main>

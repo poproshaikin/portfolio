@@ -142,7 +142,13 @@
 #abm-me-img {
     height: 90%;
 }
-@media only screen and (min-width: 576px) and (max-width: 1024px) {
+@media only screen and (min-width: 576px) and (max-width: 768px) {
+    #abm-me-img {
+        margin-top: 15vh;
+        height: 60%;    
+    }
+}
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
     #abm-me-img {
         height: 70%;    
     }
