@@ -8,6 +8,7 @@ export default function SkillsPage() {
         <PageWithCards 
             title='WHAT I EXCEL AT'
             subtitle='Turning complex ideas into elegant solutions.'
+            id='skl'
         >
             <TextCard>
                 <h1>.NET</h1>

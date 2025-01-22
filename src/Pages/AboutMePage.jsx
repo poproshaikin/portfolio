@@ -10,8 +10,8 @@ export default function AboutMePage() {
                 <div id='abm-left-part'>
                     <div id="abm-left-top-cnt" data-aos='fade-right'>
                         <TextButton content='About Me' href='#abm-main'/>
-                        <TextButton content='Projects' href='#pjs-body'/>
-                        <TextButton content='Skills' href='#skl-body'/>
+                        <TextButton content='Projects' href='#pjs'/>
+                        <TextButton content='Skills' href='#skl'/>
                         <TextButton content='Contacts' href='#cts-body' />
                     </div>
                     <div id="abm-left-bottom-cnt" data-aos='fade-right'>

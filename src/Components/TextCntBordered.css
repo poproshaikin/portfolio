@@ -3,7 +3,7 @@
     display: flex;
     flex-direction: column;
     padding: 1rem;
-    
+    width: 30vw;
 }
 .tcc-key {
     font-size: 1.1rem;
@@ -16,6 +16,13 @@
 }
 .tcc-value:hover {
     color: #96e2f8;
+}
+
+@media only screen and (max-width: 768px) {
+    .tcc-cnt {
+        align-items: center;
+        width: 70vw; 
+    }
 }
 /* .tcc-value::after {
     content: '';

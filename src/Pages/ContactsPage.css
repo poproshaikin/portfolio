@@ -89,6 +89,11 @@
     overflow: scroll;
     scrollbar-width: none;
 }
+
+#cts-submit-btn {
+    height: 7vh;
+    width: 16vw;
+}
 /* #cts-input-message::webkit-scrollbar {
     display: none;
 } */
@@ -100,7 +105,7 @@
     }
 
     #cts-header-cnt {
-        height: auto;
+        height: 15vh;
         text-align: center;
         h1 {
             font-size: 2.5rem;
@@ -108,6 +113,10 @@
         p {
             font-size: 1rem;
         }
+    }
+
+    #cts-form-txt {
+        
     }
 
     #cts-content-cnt {
@@ -122,16 +131,12 @@
         height: auto;
         padding: 0;
         align-items: center;
+        gap: 0.5vh;
         text-align: center;
     }
 
     #cts-left-part {
         margin-bottom: 1.5rem;
-    }
-
-    h3 {
-        width: 100%;
-        font-size: 1rem;
     }
 
     .cts-input {
@@ -142,7 +147,7 @@
         height: 15vh;
     }
 
-    button {
+    #cts-submit-btn {
         width: 90%;
         height: 6vh;
     }

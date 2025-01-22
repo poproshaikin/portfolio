@@ -8,6 +8,7 @@ export default function ProjectsPage() {
         <PageWithCards
             title='MY PROJECTS'
             subtitle="Explore the work I'm most proud of"
+            id='pjs'
             >
             <TextCard>
                 <h1>Deltabase</h1>
